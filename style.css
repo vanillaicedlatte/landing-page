@@ -1,73 +1,143 @@
-.header {
+body {
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+}
 
+.container {
+    width: 1280px;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 10%;
 }
 
 .logo {
-
+    color: #f9FaF8;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .nav {
-
+    display: flex;
+    gap: 16px;
 }
 
 .nav-link {
-
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .section-1 {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding: 60px 10%;
 
 }
 
 .section-1-left {
+    color: #ffffff;
+    flex: 1;
+}
 
+h1 {
+    font-size: 48px;
 }
 
 .btn-primary {
-    
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border: #3882f6 solid 1px;
+    color: #ffffff;
+    border-radius: 8px;
 }
 
 .section-1-right {
+    flex: 1;
+}
 
+.section-1-right img {
+    background-color: #ffffff;
+    width: 100%;
+    height: 250px;
+    opacity: .5;
 }
 
 .section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 10%;
+}
 
+h2 {
+    color: #1f2937;
 }
 
 .boxes {
-
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
 }
 
 .box-container {
-
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .box {
-
+    border: #3882F6 solid 4px;
+    border-radius: 8px;
+    height: 150px;
 }
 
 .box-subtext {
-
+    text-align: center;
 }
 
 .section-3 {
-
+    background-color: #e5e7eb;
+    padding: 60px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote {
-
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    width: 600px;
+    text-align: center;
 }
 
 .quote-author {
-
+    font-size: 18px;
+    font-weight: 600;
+    width: 600px;
+    text-align: right;
 }
 
 .section-4 {
-
+    padding: 60px 10%;
 }
 
 .call-to-action {
-
+    background-color: #3882F6;
+    color: #ffffff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 10%;
 }
 
 .cta-content {
@@ -79,9 +149,18 @@
 }
 
 .btn-secondary {
-
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 8px;
 }
 
 .footer {
-
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 24px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
